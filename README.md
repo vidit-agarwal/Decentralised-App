@@ -48,3 +48,7 @@ vidit:~/hello_world_voting$ node <br />
 > deployedContract = VotingContract.new(['Rama','Nick','Jose'],{data: byteCode, from: web3.eth.accounts[0], gas: 4700000})  <br />
 > deployedContract.address  <br />  (carefully note this address and take this address adn change it in js file where mentioned)
 > contractInstance = VotingContract.at(deployedContract.address)  <br />
+
+## Run testrpc :
+> Open another terminal <br />
+> type : `testrpc`
