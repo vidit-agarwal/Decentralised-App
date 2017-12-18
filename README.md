@@ -32,19 +32,19 @@ So , does a profitable decentralised app look like ? <br />
 
 # How to run it ?
 ## Setup an Environment :
-> Install `npm install ethereumjs-testrpc web3`
-> Install `npm install solc` (for solidity compiler)
+> Install `npm install ethereumjs-testrpc web3` <br />
+> Install `npm install solc` (for solidity compiler) <br />
 
 ## Usage :
-vidit:~/hello_world_voting$ node
-> Web3 = require('web3')
-> web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
-> code = fs.readFileSync('Voting.sol').toString()
-> solc = require('solc')
-> compiledCode = solc.compile(code)
-> abiDefinition = JSON.parse(compiledCode.contracts[':Voting'].interface)
-> VotingContract = web3.eth.contract(abiDefinition)
-> byteCode = compiledCode.contracts[':Voting'].bytecode
-> deployedContract = VotingContract.new(['Rama','Nick','Jose'],{data: byteCode, from: web3.eth.accounts[0], gas: 4700000})
-> deployedContract.address
-> contractInstance = VotingContract.at(deployedContract.address)
+vidit:~/hello_world_voting$ node <br />
+> Web3 = require('web3') <br />
+> web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545")); <br />
+> code = fs.readFileSync('Voting.sol').toString() <br />
+> solc = require('solc') <br />
+> compiledCode = solc.compile(code)  <br />
+> abiDefinition = JSON.parse(compiledCode.contracts[':Voting'].interface) <br />
+> VotingContract = web3.eth.contract(abiDefinition) <br />
+> byteCode = compiledCode.contracts[':Voting'].bytecode <br />
+> deployedContract = VotingContract.new(['Rama','Nick','Jose'],{data: byteCode, from: web3.eth.accounts[0], gas: 4700000})  <br />
+> deployedContract.address  <br />
+> contractInstance = VotingContract.at(deployedContract.address)  <br />
