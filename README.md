@@ -14,9 +14,19 @@ Too much concentrated power
 We have no say in how our data is used
 We should get paid for our data
 
-> Decentralised systems are those where no node is telling any other node what to do .Bitcoin is both distributed because it's timestamped public ledger , the blockchain ,resides on multiple computer and decentralised because if one node goes down the network is still able to operate
-    .) Multiple servers
-    .) Demand and failure better handled
-Examples : Bitcoin & Ethereum
+> Decentralised systems are those where no node is telling any other node what to do .Bitcoin is both distributed because it's timestamped public ledger , the blockchain ,resides on multiple computer and decentralised because if one node goes down the network is still able to operate <br />
+⋅⋅⋅ Multiple servers <br />
+⋅⋅⋅ Demand and failure better handled<br />
+Examples : `Bitcoin & Ethereum` <br />
 
+
+So , does a profitable decentralised app look like ? <br />
+
+|                           | `WEB 2.0`     | `WEB 3.0`          |
+| ------------------------- |:-------------:| ------------------:|
+| Scalable computation      | Amazon EC2    | Ethereum , Truebit |
+| File Storage              | Amazon EC3    |  IPFS/Filecoin , storj |
+| External Data             | 3rd Party API |   Oracle (Augur)   |
+| Monetization              | Ads , selling goods    | Token Model |
+| Payments                  | Credit Card, Paypal    |  Ethereum,Bitcoin,state channels   |
 
