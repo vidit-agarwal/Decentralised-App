@@ -32,7 +32,7 @@ So , does a profitable decentralised app look like ? <br />
 
 # How to run it ?
 ## Setup an Environment :
-> Install `npm install ethereumjs-testrpc web3` <br />
+> Install `npm install ethereumjs-testrpc web3@0.20.1` <br />
 > Install `npm install solc` (for solidity compiler) <br />
 
 ## Usage :
@@ -46,5 +46,5 @@ vidit:~/hello_world_voting$ node <br />
 > VotingContract = web3.eth.contract(abiDefinition) <br />
 > byteCode = compiledCode.contracts[':Voting'].bytecode <br />
 > deployedContract = VotingContract.new(['Rama','Nick','Jose'],{data: byteCode, from: web3.eth.accounts[0], gas: 4700000})  <br />
-> deployedContract.address  <br />
+> deployedContract.address  <br />  (carefully note this address and take this address adn change it in js file where mentioned)
 > contractInstance = VotingContract.at(deployedContract.address)  <br />
